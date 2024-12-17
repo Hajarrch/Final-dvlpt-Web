@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Gastronomique</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+ 
+<button class="go-top-btn" onclick="scrollToTop()">
+    <img src="assets/arrow.png" alt="arrow up">
+</button>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#accueil">ACCUEIL</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#apropos">À PROPOS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="accueil" class="intro">
+    <div class="overlay">
+      <h1>Bienvenue au Restaurant</h1>
+      <h2>Gastronomique</h2>
+      <p>Découvrez des plats exquis dans un cadre exceptionnel</p>
+    </div>
+  </section>
+  
+  <section id="menu" class="menu-section">
+    <h2>Notre Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <h3>Entrée</h3>
+        <p>Soupe de saison - <strong>15$</strong></p>
+      </div>
+      <div class="menu-card">
+        <h3>Plat Principal</h3>
+        <p>Filet de bœuf - <strong>30$</strong></p>
+      </div>
+      <div class="menu-card">
+        <h3>Dessert</h3>
+        <p>Tarte au chocolat - <strong>12$</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="apropos" class="about-section">
+    <div class="about-content">
+      <img src="assets/team.jpeg" alt="Notre équipe">
+      <div class="about-text">
+        <h2>À propos</h2>
+        <p>Notre équipe passionnée vous accueille pour une expérience culinaire inoubliable.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="contact-section">
+    <h2>Contactez-nous</h2>
+    <form>
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required>
+      
+      <label for="heure">Heure</label>
+      <input type="time" id="heure" name="heure" required>
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit" class="btn-reserver">Réserver</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>&copy; 2024 Restaurant Gastronomique | Tous droits réservés</p>
+    <div class="social-links">
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>
+
+<script defer src="js/scripts.js"></script>
+
+
+
+
+
+
